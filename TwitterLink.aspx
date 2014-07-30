@@ -69,6 +69,7 @@
     <body>
         <% foreach (var item in tweets.statuses) { %>
         <div>
+            <img src="<%= item.user.profile_image_url %>" /><br/>
             From user: <%= item.user.name %><br/>
             <%= item.text %>
         </div>
