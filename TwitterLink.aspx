@@ -1,9 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" %>
+﻿<%@ Page Language="VB" AutoEventWireup="true" %>
 
 <%
 
-    var abc = "my var";
+    Dim abc As String = "my var"
 
 %>
 
-<%= abc %>
+<%= abc %>`
