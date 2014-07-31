@@ -120,8 +120,7 @@
                     <p></p>
                     <p></p>
 
-                    <h1><strong><center><font face="century gothic" color="white">#MoneyLisa</center></strong></h1>
-
+                    <p><h1><strong><center><font face="century gothic" color="white">#MoneyLisa</center></strong></h1></p>
             </div>
 
         </div>
