@@ -88,6 +88,10 @@
         h1{
             font-size:70px;
         }
+
+        .single-tweet{
+        colour="red"
+        }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
@@ -129,7 +133,7 @@
             <div class="col-md-6 col-md-offset-3">
 
                     <% foreach (var item in tweets.statuses) { %>
-                    <div class="pull-left">
+                    <div class="pull-left single-tweet">
                         <img src="<%= item.user.profile_image_url %>" /><br/>
                         From user: <%= item.user.name %><br/>
                         <%= item.text %>
