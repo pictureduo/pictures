@@ -51,7 +51,7 @@
 
     var searchRequest = new RestRequest("/1.1/search/tweets.json", Method.GET);
     searchRequest.AddHeader("Authorization", "Bearer " + token.access_token);
-    searchRequest.AddParameter("q", "lolcat");
+    searchRequest.AddParameter("q", "#MoneyLisa");
     var searchResponse = twitterClient.Execute(searchRequest);
 
     var tweets = JsonConvert.DeserializeObject<TweetObject>(searchResponse.Content);
