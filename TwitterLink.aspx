@@ -86,7 +86,7 @@
             background-color: #ff0705;
         }
         h1{
-            font-size:75px;
+            font-size:70px;
         }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -115,12 +115,10 @@
                 </div>
             </div>
             <div class="col-md-4" align="right">
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                    <h1><strong><center><font face="century gothic" color="white">#MoneyLisa</center></strong></h1>
 
-                    <p><h1><strong><center><font face="century gothic" color="white">#MoneyLisa</center></strong></h1></p>
+                <a href="http://www.comicrelief.com/"></a> <button type="button" class="btn btn-default"><font face="century gothic" color="red">Help Here</button></a>
+
             </div>
 
         </div>
@@ -131,7 +129,7 @@
 
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                    <style colour="red">
+
                     <% foreach (var item in tweets.statuses) { %>
                     <div class="pull-left">
                         <img src="<%= item.user.profile_image_url %>" /><br/>
