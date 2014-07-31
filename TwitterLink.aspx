@@ -121,6 +121,9 @@
                 </div>
             </div>
             <div class="col-md-4" align="right">
+                    <br>
+                    <br>
+                    <br>
                     <h1><strong><center><font face="century gothic" color="white">#MoneyLisa</center></strong></h1>
 
             </div>
