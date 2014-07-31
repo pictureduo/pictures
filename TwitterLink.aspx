@@ -83,14 +83,16 @@
         .redpanel{
             margin-top: 150px;
             padding-top: 25px;
-            background-color: #ff0705;
+            background-color: #ff1b2c;
         }
         h1{
             font-size:70px;
         }
 
         .single-tweet{
-        colour="red"
+
+        font-colour:#ff1b2c 
+
         }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
