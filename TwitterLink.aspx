@@ -91,7 +91,7 @@
 
         .single-tweet{
 
-        font-colour:#ff1b2c 
+        font-colour:#ff1b2c;
 
         }
     </style>
