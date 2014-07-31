@@ -131,13 +131,15 @@
 <div class="container">
 
         <div class="row">
-            <div class="col-md-6 col-md-offset-3 pull-left">
+            <div class="col-md-6 col-md-offset-3">
+
                     <% foreach (var item in tweets.statuses) { %>
-                    <div>
+                    <div class="pull-left">
                         <img src="<%= item.user.profile_image_url %>" /><br/>
                         From user: <%= item.user.name %><br/>
                         <%= item.text %>
                     </div>
+
                     <%  } %>
             </div>
         </div>
