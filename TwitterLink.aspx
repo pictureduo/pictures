@@ -126,8 +126,12 @@
 
         </div>
 
+    </div>
+</div>
+<div class="container">
+
         <div class="row">
-            <div class="col-md-6 col-md-offset-3">
+            <div class="col-md-6 col-md-offset-3 pull-left">
                     <% foreach (var item in tweets.statuses) { %>
                     <div>
                         <img src="<%= item.user.profile_image_url %>" /><br/>
@@ -137,9 +141,8 @@
                     <%  } %>
             </div>
         </div>
-    </div>
-</div>
-<div class="container">
+
+
      <hr>
     <footer>
         <p>&copy; Company 2014</p>
