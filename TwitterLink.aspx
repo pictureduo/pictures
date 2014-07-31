@@ -57,23 +57,52 @@
     var tweets = JsonConvert.DeserializeObject<TweetObject>(searchResponse.Content);
     
     %>
-<html>
-    <head>
-        <Title>Our twitter feed</Title>
-    </head>
-    <Style>
-        body {
-            background-color: lightblue;
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Picture Duo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        .redpanel{
+            margin-top: 150px;
+            padding-top: 25px;
+            background-color: #ff0705;
         }
-    </Style>
-    <body>
-        <% foreach (var item in tweets.statuses) { %>
-        <div>
-            <img src="<%= item.user.profile_image_url %>" /><br/>
-            From user: <%= item.user.name %><br/>
-            <%= item.text %>
-        </div>
- <div class="row">
+        h1{
+            font-size:64px;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+
+<div class="redpanel">
+    <div class="container">
+    <!-- Example row of columns -->
+
+        <div class="row">
             <div class="col-md-3">
 
             </div>
@@ -91,19 +120,33 @@
                 <h2><font face="century gothic" color="white"><u>Why?</u></h2>
                 <h4><p><font face="century gothic" color="white">'s standard dummy text type and scrambled it to make a type spec only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</font></p>
                 </h4>
-                <a href="http://www.comicrelief.com/" <button type="button" class="btn btn-default"><font face="century gothic" color="red">Help Here</button></a>
+                <a href="http://www.comicrelief.com/"></a> <button type="button" class="btn btn-default"><font face="century gothic" color="red">Help Here</button></a>
 
             </div>
 
         </div>
+
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                    <% foreach (var item in tweets.statuses) { %>
+                    <div>
+                        <img src="<%= item.user.profile_image_url %>" /><br/>
+                        From user: <%= item.user.name %><br/>
+                        <%= item.text %>
+                    </div>
+                    <%  } %>
+            </div>
+        </div>
     </div>
 </div>
+<div class="container">
+     <hr>
+    <footer>
+        <p>&copy; Company 2014</p>
+    </footer>
+</div> <!-- /container -->
 
 
-
-
-        <%  } %> 
-                
-    </body>
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
-
