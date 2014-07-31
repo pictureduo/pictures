@@ -86,13 +86,13 @@
             background-color: #ff1b2c;
         }
         h1{
-            font-size:70px;
+            font-size:64px;
         }
 
         .single-tweet{
 
             color: red;
-            padding: 5px 5px 5px 5px;
+            padding: 15px 15px 15px 15px;
 
         }
     </style>
