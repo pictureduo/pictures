@@ -91,7 +91,8 @@
 
         .single-tweet{
 
-color: red;
+            color: red;
+            padding: 5px 5px 5px 5px;
 
         }
     </style>
@@ -127,12 +128,7 @@ color: red;
     <div class="container">
     <!-- Example row of columns -->
         <div class="row">
-            <div class="col-md-3">#
-
-            <a href="index.html"></a> <button type="button" class="btn btn-default"><font face="century gothic" color="red">Home</button></a>
-                            <a href="TwitterLink.aspx"></a> <button type="button" class="btn btn-default"><font face="century gothic" color="red">View Others</button></a>
-
-
+            <div class="col-md-3">
             </div>
 
             <div class="col-md-6">
