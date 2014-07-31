@@ -129,9 +129,9 @@
 </div>
 <div class="container">
 
-        <div class="row" colour="red">
+        <div class="row">
             <div class="col-md-6 col-md-offset-3">
-
+                    <style colour="red">
                     <% foreach (var item in tweets.statuses) { %>
                     <div class="pull-left">
                         <img src="<%= item.user.profile_image_url %>" /><br/>

@@ -46,8 +46,8 @@
       <file leaf-file-name="TwitterLink.aspx" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TwitterLink.aspx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48207885" vertical-offset="1958" max-vertical-offset="2754">
-              <caret line="131" column="36" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.29928315" vertical-offset="2094" max-vertical-offset="2754">
+              <caret line="133" column="40" selection-start-line="133" selection-start-column="40" selection-end-line="133" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -191,7 +191,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -280,8 +280,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TwitterLink.aspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48207885" vertical-offset="1958" max-vertical-offset="2754">
-          <caret line="131" column="36" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.29928315" vertical-offset="2094" max-vertical-offset="2754">
+          <caret line="133" column="40" selection-start-line="133" selection-start-column="40" selection-end-line="133" selection-end-column="40" />
           <folding />
         </state>
       </provider>
