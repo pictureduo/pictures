@@ -86,7 +86,7 @@
             background-color: #ff0705;
         }
         h1{
-            font-size:64px;
+            font-size:75px;
         }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -98,12 +98,12 @@
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
 
+
 <div class="redpanel">
     <div class="container">
     <!-- Example row of columns -->
-
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-2">
 
             </div>
 
@@ -113,13 +113,10 @@
                     <p></p>
                     <img src="moneymona.png"  width="100%" />
                 </div>
-              <h1><strong><center><font face="century gothic" color="white">#MoneyLisa</center></strong></h1>
             </div>
-            <div class="col-md-3" align="right">
+            <div class="col-md-4" align="right">
+                    <h1><strong><center><font face="century gothic" color="white">#MoneyLisa</center></strong></h1>
 
-                <h2><font face="century gothic" color="white"><u>Why?</u></h2>
-                <h4><p><font face="century gothic" color="white">'s standard dummy text type and scrambled it to make a type spec only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</font></p>
-                </h4>
                 <a href="http://www.comicrelief.com/"></a> <button type="button" class="btn btn-default"><font face="century gothic" color="red">Help Here</button></a>
 
             </div>
