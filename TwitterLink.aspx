@@ -129,7 +129,7 @@
 </div>
 <div class="container">
 
-        <div class="row">
+        <div class="row" colour="red">
             <div class="col-md-6 col-md-offset-3">
 
                     <% foreach (var item in tweets.statuses) { %>
