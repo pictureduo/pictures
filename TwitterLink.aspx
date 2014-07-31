@@ -117,8 +117,6 @@
             <div class="col-md-4" align="right">
                     <h1><strong><center><font face="century gothic" color="white">#MoneyLisa</center></strong></h1>
 
-                <a href="http://www.comicrelief.com/"></a> <button type="button" class="btn btn-default"><font face="century gothic" color="red">Help Here</button></a>
-
             </div>
 
         </div>
